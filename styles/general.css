@@ -1,0 +1,16 @@
+p{
+  font-family: Roboto;
+}
+body{
+  margin: 0;
+}
+.page-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  row-gap: 40px;
+  padding-top: 120px;
+  padding-left: 100px;
+}

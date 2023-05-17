@@ -1,0 +1,154 @@
+.header{
+  height:55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.middle-section{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 50px;
+  max-width: 600px;
+}
+.right-section{
+  width:150px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.hamburger-menu{
+  height: 30px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.hamburger-button{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+}
+.hamburger-button:hover{
+  background-color: rgb(221, 221, 221);
+}
+.youtube-logo{
+  cursor: pointer;
+  height: 40px;
+}
+.create-icon{
+  height: 20px;
+}
+.create-button:hover{
+  background-color: rgb(221, 221, 221);
+}
+.notification-icon{
+  height: 20px;
+}
+.login-icon{
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.create-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 0px;
+  margin-left: 0;
+  cursor: pointer;
+}
+.notification-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 0px;
+  margin-left: 0;
+  cursor: pointer;
+}
+.login-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  margin-right: 0px;
+  margin-left: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.notification-button:hover{
+  background-color: rgb(221, 221, 221);
+}
+.searchbar{
+  flex: 1;
+  height: 40px;
+  width: 0;
+  padding-left: 12px;
+  border-radius: 100px 0px 0px 100px;
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  border-color: rgb(156, 156, 156);
+  margin-right: 0;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.searchbar::placeholder{
+  font-family: Roboto,Arial;
+  font-size: 16px;
+}
+.button-search{
+  margin-left: 0;
+  height: 18px;
+
+}
+.search-border{
+  height: 40px;
+  width: 66px;
+  border-radius: 0 100px 100px 0px;
+  margin-left: -1px ;
+  border-width:1px ;
+  border-style: solid;
+  border-color: rgb(156, 156, 156);
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.search-border:hover{
+  background-color: rgb(232, 232, 232);
+}
+.microphone{
+  margin-top: 2px;
+  height: 20px;
+  width: 20px;
+}
+.voice-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.voice-button:hover{
+  background-color:rgb(221, 221, 221);
+}

@@ -1,0 +1,87 @@
+.sidebar{
+  position: fixed;
+  background-color: white;
+  top:50px ;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  background-color: white;
+  z-index: 1;
+}
+.home-icon{
+  height: 20px;
+}
+.home-button{
+  height: 70px;
+  width: 70px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.home-button:hover{
+  background-color: rgb(221, 221, 221);
+
+}
+.shorts-icon{
+  height: 20px;
+}
+.shorts-button{
+  height: 70px;
+  width: 70px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.shorts-button:hover{
+  background-color: rgb(221, 221, 221);
+
+}
+.subscription-icon{
+  height: 20px;
+}
+.subscription-button:hover{
+  background-color: rgb(221, 221, 221);
+
+  
+}
+.subscription-button{
+  height: 70px;
+  width: 70px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.library-icon{
+  height: 20px;
+}
+.library-button{
+  height: 70px;
+  width: 70px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.library-button:hover{
+  background-color: rgb(221, 221, 221);
+
+}
